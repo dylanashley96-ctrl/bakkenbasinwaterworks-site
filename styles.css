@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #000000;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FF0000; /* Red */
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #000000; /* Black */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #FF0000;
+}
+
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.headline {
+    font-size: 32px;
+    color: #000000;
+}
+
+.subheadline {
+    font-size: 20px;
+    color: #808080; /* Grey */
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.cta-button:hover {
+    background-color: #000000;
+}
+
+.map img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #808080;
+}
+
+.why-choose {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.why-column {
+    width: 45%;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border: 1px solid #808080;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #808080;
+}
+
+form button {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #000000;
+}
+
+footer {
+    background-color: #808080;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .why-column {
+        width: 100%;
+    }
+}
